@@ -1,0 +1,75 @@
+-----------------------------------------------------------------------
+PRo's Schreibmaschine
+-----------------------------------------------------------------------
+Übungsarten
+	- Text
+		- Sprichwörter
+		- Witze
+		- Zitate
+		- Zufall
+		
+	- ABC
+		- ABC (beinhaltet das Alphabet vorwärts und rückwärts).
+		- ABC + Zahlen.
+		- ABC + Zahlen + Sonderzeichen.
+		
+	- Zufall
+		- 'q' bis 'p' + 'a' bis 'ö' + 'y' bis '.'(Punkt) + ' '.
+		
+Neuer Zusatz
+	- Buchstaben können 5 bis Ende nach dem ersten Buchstaben
+	  ausgetauscht werden.
+		
+-----------------------------------------------------------------------		
+Schreibmodi
+	- Schnell Schreiben.
+		- Der Text wird immer schneller.
+		- Die Übung wird beendet, wenn der erste Buchstaben den
+		  linken Rand erreicht.
+		  
+		- Die Übung wird gewertet.
+		
+	- Variables Schreiben.
+		- Übungsdauer kann eingestellt werden.
+		- Die Übungsart kann ausgewählt werden.
+		
+		- Geschwindigkeit kann mit den Pfeiltasten eingestellt
+		  werden, die Geschwindigkeit pendelt dann während der
+		  gesamten Übungsdauer dazwischen.
+		- Erreicht der erste Buchstabe den linken Rand, dann
+		  werden alle Buchstaben gelöscht, die Übung läuft weiter.
+		  
+		- Keine Wertung.
+		
+	- Normales Schreiben.
+		- Übungsdauer kann eingestellt werden.
+		- Die Übungsart kann ausgewählt werden.
+		
+		- Die Geschwindigkeit passt sich dem User an.
+		
+		- Die Übung wird gewertet.
+
+-----------------------------------------------------------------------
+Übungsdauer
+	- 5min, 10min, 15min.
+
+-----------------------------------------------------------------------
+Wertung
+	- Schnell Schreiben.
+		- Endgeschwindigkeit, Datum, Name, Übung, Fehler, Prozent,
+		  Anzahl Buchstaben
+	- Variables Schreiben.
+		- Keine Wertung, aber eine Statistik (JOptionPane) wird
+		  unmittelbar nach der Übung angezeigt.
+	- Normales Schreiben.
+		- Durchschnittsgeschwindigkeit, Datum, Name, Übungsart,
+		  Fehler, Prozent, Anzahl Buchstaben, Löschen der Buchstaben-
+		  reihe, Übungsdauer...
+
+-----------------------------------------------------------------------
+Übungsstart
+	- Button 'Start' schaltet zur ausgewählten Konfiguration um.
+	- Übung startet automatisch nach 1sec., nach der Umschaltung
+	  zur Übung.
+
+-----------------------------------------------------------------------
